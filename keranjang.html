@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keranjang Belanja - PustakaBook</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">📚 PustakaBook</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="katalog.html">Katalog Buku</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="keranjang.html" class="active cart-icon">🛒 Keranjang <span id="cart-count" class="cart-count">0</span></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <h2>🛒 Keranjang Belanja Anda</h2>
+    <div id="cart-table-container"></div>
+
+    <div class="checkout-form" id="checkout-section" style="display:none;">
+      <h3>📋 Form Data Pengiriman</h3>
+      <br>
+      <form id="wa-form">
+        <div class="form-group">
+          <label for="nama">Nama Lengkap:</label>
+          <input type="text" id="nama" required placeholder="Masukkan nama Anda">
+        </div>
+        <div class="form-group">
+          <label for="alamat">Alamat Lengkap Pengiriman:</label>
+          <textarea id="alamat" rows="3" required placeholder="Jalan, No. Rumah, Kecamatan, Kota/Kabupaten"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="catatan">Catatan Tambahan (Opsional):</label>
+          <input type="text" id="catatan" placeholder="Contoh: Sampul plastik gratis">
+        </div>
+        <button type="submit" class="btn btn-success" style="width: 100%; font-size: 1.1rem;">📲 Kirim Pesanan via WhatsApp</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 PustakaBook. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    function renderCart() {
+      const cart = getCart();
+      const container = document.getElementById('cart-table-container');
+      const checkoutSection = document.getElementById('checkout-section');
+
+      if (cart.length === 0) {
+        container.innerHTML = "<p>Keranjang Anda masih kosong. <a href='katalog.html'>Belanja Sekarang</a></p>";
+        checkoutSection.style.display = 'none';
+        return;
+      }
+
+      checkoutSection.style.display = 'block';
+
+      let total = 0;
+      let html = `
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th>Buku</th>
+              <th>Harga</th>
+              <th>Jumlah</th>
+              <th>Subtotal</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+      `;
+
+      cart.forEach((item, index) => {
+        const subtotal = item.harga * item.qty;
+        total += subtotal;
+        html += `
+          <tr>
+            <td>${item.judul}</td>
+            <td>Rp ${item.harga.toLocaleString('id-ID')}</td>
+            <td>${item.qty}</td>
+            <td>Rp ${subtotal.toLocaleString('id-ID')}</td>
+            <td><button onclick="removeItem(${index})" style="background:red; color:white; border:none; padding:5px 10px; border-radius:3px; cursor:pointer;">Hapus</button></td>
+          </tr>
+        `;
+      });
+
+      html += `
+          <tr>
+            <td colspan="3" style="text-align:right; font-weight:bold;">Total Pembayaran:</td>
+            <td colspan="2" style="font-weight:bold; color:var(--secondary-color);">Rp ${total.toLocaleString('id-ID')}</td>
+          </tr>
+        </tbody>
+        </table>
+      `;
+
+      container.innerHTML = html;
+    }
+
+    function removeItem(index) {
+      let cart = getCart();
+      cart.splice(index, 1);
+      saveCart(cart);
+      renderCart();
+    }
+
+    document.getElementById('wa-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const cart = getCart();
+      const nama = document.getElementById('nama').value;
+      const alamat = document.getElementById('alamat').value;
+      const catatan = document.getElementById('catatan').value;
+
+      let message = `Halo PustakaBook, saya mau pesan buku berikut:\n\n`;
+      let total = 0;
+
+      cart.forEach((item, i) => {
+        const sub = item.harga * item.qty;
+        total += sub;
+        message += `${i+1}. *${item.judul}* (${item.qty}x) = Rp ${sub.toLocaleString('id-ID')}\n`;
+      });
+
+      message += `\n*Total Tagihan:* Rp ${total.toLocaleString('id-ID')}\n\n`;
+      message += `*Data Pemesan:*\n`;
+      message += `👤 Nama: ${nama}\n`;
+      message += `📍 Alamat: ${alamat}\n`;
+      if(catatan) message += `📝 Catatan: ${catatan}\n`;
+
+      const encodedMessage = encodeURIComponent(message);
+      window.open(`https://wa.me/${NOMOR_WA}?text=${encodedMessage}`, '_blank');
+    });
+
+    renderCart();
+  </script>
+</body>
+</html>
