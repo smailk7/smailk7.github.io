@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PustakaBook - Toko Buku & Novel Online</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">📚 PustakaBook</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Beranda</a></li>
+        <li><a href="katalog.html">Katalog Buku</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="keranjang.html" class="cart-icon">🛒 Keranjang <span id="cart-count" class="cart-count">0</span></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Selamat Datang di PustakaBook</h1>
+      <p>Temukan Novel Terbaik dan Buku Pengembangan Diri Favoritmu di Sini.</p>
+      <a href="katalog.html" class="btn">Jelajahi Katalog</a>
+    </section>
+
+    <h2>📖 Buku Rekomendasi</h2>
+    <div class="book-grid" id="featured-books"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 PustakaBook. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    const container = document.getElementById('featured-books');
+    DATA_BUKU.forEach(book => {
+      container.innerHTML += `
+        <div class="book-card">
+          <img src="${book.gambar}" alt="${book.judul}">
+          <div class="book-info">
+            <h3 class="book-title">${book.judul}</h3>
+            <p class="book-author">Oleh: ${book.penulis}</p>
+            <p class="book-price">Rp ${book.harga.toLocaleString('id-ID')}</p>
+            <a href="detail.html?id=${book.id}" class="btn" style="width: 100%; text-align: center; margin-bottom: 0.5rem;">Lihat Detail</a>
+            <button onclick="addToCart(${book.id})" class="btn btn-success" style="width: 100%;">+ Keranjang</button>
+          </div>
+        </div>
+      `;
+    });
+  </script>
+</body>
+</html>
