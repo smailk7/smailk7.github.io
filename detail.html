@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Buku - PustakaBook</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">📚 PustakaBook</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="katalog.html">Katalog Buku</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="keranjang.html" class="cart-icon">🛒 Keranjang <span id="cart-count" class="cart-count">0</span></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div id="detail-content"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 PustakaBook. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const bookId = parseInt(urlParams.get('id')) || 1;
+    const book = DATA_BUKU.find(b => b.id === bookId);
+
+    const container = document.getElementById('detail-content');
+    if (book) {
+      container.innerHTML = `
+        <div class="detail-container">
+          <img src="${book.gambar}" alt="${book.judul}" class="detail-img">
+          <div>
+            <h1>${book.judul}</h1>
+            <p class="book-author">Penulis: <strong>${book.penulis}</strong></p>
+            <p class="book-author">Kategori: <strong>${book.kategori}</strong></p>
+            <p class="book-price">Rp ${book.harga.toLocaleString('id-ID')}</p>
+            <p style="margin-bottom: 1.5rem; line-height: 1.6;">${book.deskripsi}</p>
+            <button onclick="addToCart(${book.id})" class="btn btn-success">+ Tambahkan ke Keranjang</button>
+          </div>
+        </div>
+
+        <h3 style="margin-top: 2rem;">📖 Pratinjau / Sampel Bacaan (Halaman Depan)</h3>
+        <div class="reader-box">
+          <p><em>"${book.sampel}"</em></p>
+        </div>
+      `;
+    } else {
+      container.innerHTML = "<h3>Buku tidak ditemukan.</h3>";
+    }
+  </script>
+</body>
+</html>
