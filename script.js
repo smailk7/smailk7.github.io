@@ -1,5 +1,5 @@
 // GANTI DENGAN NOMOR WHATSAPP ANDA (Gunakan format 62...)
-const NOMOR_WA = "6281234567890";
+const NOMOR_WA = "6281331332840";
 
 // Data Buku Contoh
 const DATA_BUKU = [
