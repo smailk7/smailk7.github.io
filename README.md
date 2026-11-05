@@ -52,6 +52,14 @@ Landing page portofolio interaktif ini dirancang khusus untuk memamerkan identit
 ├── index.html       # File HTML utama
 ├── style.css        # File styling & tema warna
 ├── script.js        # File logika interaktif & rendering data
-├── products.json    # File data varian warna & fitur produk
+├── products.json    # File data varian warna & fitur prod
 ├── LICENSE          # Lisensi MIT
 └── README.md        # Dokumentasi repositori
+
+---
+
+## 🚀 Cara Menjalankan Secara Lokal
+
+1. **Clone Repositori ini:**
+   ```bash
+   git clone [https://github.com/smailk7/smailk7.github.io.git](https://github.com/smailk7/smailk7.github.io.git)
