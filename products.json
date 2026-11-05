@@ -1,1 +1,94 @@
-
+{
+  "brand": "SMAILK",
+  "productName": "SMAILK Lifestyle Sneakers",
+  "taglines": [
+    "Step Up Your Style",
+    "Simple Look, Maximum Style",
+    "Smailk Always With You"
+  ],
+  "features": [
+    {
+      "title": "Bahan Premium",
+      "desc": "Awet & Tahan Lama",
+      "icon": "shield-check"
+    },
+    {
+      "title": "Sol Karet Anti Slip",
+      "desc": "Lebih Stabil & Aman",
+      "icon": "disc"
+    },
+    {
+      "title": "Ringan & Nyaman",
+      "desc": "Untuk Aktivitas Harian",
+      "icon": "feather"
+    },
+    {
+      "title": "Sirkulasi Udara",
+      "desc": "Tetap Sejuk",
+      "icon": "wind"
+    }
+  ],
+  "colorVariants": [
+    {
+      "id": "panda",
+      "name": "Panda (Black & White)",
+      "badge": "Warna Utama",
+      "hexPrimary": "#18181b",
+      "hexSecondary": "#f4f4f5",
+      "accentColor": "#ffffff",
+      "imagePlaceholder": "https://via.placeholder.com/600x400/18181b/ffffff?text=SMAILK+Panda+(Black+%26+White)"
+    },
+    {
+      "id": "white",
+      "name": "Triple White",
+      "badge": "Clean Look",
+      "hexPrimary": "#ffffff",
+      "hexSecondary": "#e4e4e7",
+      "accentColor": "#18181b",
+      "imagePlaceholder": "https://via.placeholder.com/600x400/e4e4e7/18181b?text=SMAILK+Triple+White"
+    },
+    {
+      "id": "grey",
+      "name": "Neutral Grey",
+      "badge": "Modern",
+      "hexPrimary": "#71717a",
+      "hexSecondary": "#f4f4f5",
+      "accentColor": "#18181b",
+      "imagePlaceholder": "https://via.placeholder.com/600x400/71717a/ffffff?text=SMAILK+Neutral+Grey"
+    },
+    {
+      "id": "oatmeal",
+      "name": "Oatmeal (Beige)",
+      "badge": "Casual",
+      "hexPrimary": "#f5f5dc",
+      "hexSecondary": "#d4d4d8",
+      "accentColor": "#27272a",
+      "imagePlaceholder": "https://via.placeholder.com/600x400/f5f5dc/27272a?text=SMAILK+Oatmeal+(Beige)"
+    },
+    {
+      "id": "navy",
+      "name": "Classic Navy",
+      "badge": "Sporty",
+      "hexPrimary": "#1e3a8a",
+      "hexSecondary": "#ffffff",
+      "accentColor": "#ffffff",
+      "imagePlaceholder": "https://via.placeholder.com/600x400/1e3a8a/ffffff?text=SMAILK+Classic+Navy"
+    },
+    {
+      "id": "black",
+      "name": "Triple Black",
+      "badge": "Stealth",
+      "hexPrimary": "#09090b",
+      "hexSecondary": "#27272a",
+      "accentColor": "#ffffff",
+      "imagePlaceholder": "https://via.placeholder.com/600x400/09090b/ffffff?text=SMAILK+Triple+Black"
+    }
+  ],
+  "productDetails": [
+    { "title": "Detail Upper", "desc": "Rapi & Elegan" },
+    { "title": "Logo SMAILK", "desc": "Tegas & Modern" },
+    { "title": "Label Premium", "desc": "Kualitas Terbaik" },
+    { "title": "Detail Belakang", "desc": "Simple & Keren" },
+    { "title": "Sol Anti Slip", "desc": "Lebih Aman" }
+  ]
+}
