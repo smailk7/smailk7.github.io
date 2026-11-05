@@ -36,7 +36,7 @@
       "hexPrimary": "#18181b",
       "hexSecondary": "#f4f4f5",
       "accentColor": "#ffffff",
-      "imagePlaceholder": "https://via.placeholder.com/600x400/18181b/ffffff?text=SMAILK+Panda+(Black+%26+White)"
+      "imagePlaceholder": "https://storage.googleapis.com/stateless-display-assets/ChatGPT%20Image%20Sep%2028%2C%202026%2C%2007_56_56%20AM.png"
     },
     {
       "id": "white",
@@ -45,7 +45,7 @@
       "hexPrimary": "#ffffff",
       "hexSecondary": "#e4e4e7",
       "accentColor": "#18181b",
-      "imagePlaceholder": "https://via.placeholder.com/600x400/e4e4e7/18181b?text=SMAILK+Triple+White"
+      "imagePlaceholder": "https://storage.googleapis.com/stateless-display-assets/ChatGPT%20Image%20Sep%2028%2C%202026%2C%2007_56_56%20AM.png"
     },
     {
       "id": "grey",
@@ -54,7 +54,7 @@
       "hexPrimary": "#71717a",
       "hexSecondary": "#f4f4f5",
       "accentColor": "#18181b",
-      "imagePlaceholder": "https://via.placeholder.com/600x400/71717a/ffffff?text=SMAILK+Neutral+Grey"
+      "imagePlaceholder": "https://storage.googleapis.com/stateless-display-assets/ChatGPT%20Image%20Sep%2028%2C%202026%2C%2007_56_56%20AM.png"
     },
     {
       "id": "oatmeal",
@@ -63,7 +63,7 @@
       "hexPrimary": "#f5f5dc",
       "hexSecondary": "#d4d4d8",
       "accentColor": "#27272a",
-      "imagePlaceholder": "https://via.placeholder.com/600x400/f5f5dc/27272a?text=SMAILK+Oatmeal+(Beige)"
+      "imagePlaceholder": "https://storage.googleapis.com/stateless-display-assets/ChatGPT%20Image%20Sep%2028%2C%202026%2C%2007_56_56%20AM.png"
     },
     {
       "id": "navy",
@@ -72,7 +72,7 @@
       "hexPrimary": "#1e3a8a",
       "hexSecondary": "#ffffff",
       "accentColor": "#ffffff",
-      "imagePlaceholder": "https://via.placeholder.com/600x400/1e3a8a/ffffff?text=SMAILK+Classic+Navy"
+      "imagePlaceholder": "https://storage.googleapis.com/stateless-display-assets/ChatGPT%20Image%20Sep%2028%2C%202026%2C%2007_56_56%20AM.png"
     },
     {
       "id": "black",
@@ -81,7 +81,7 @@
       "hexPrimary": "#09090b",
       "hexSecondary": "#27272a",
       "accentColor": "#ffffff",
-      "imagePlaceholder": "https://via.placeholder.com/600x400/09090b/ffffff?text=SMAILK+Triple+Black"
+      "imagePlaceholder": "https://storage.googleapis.com/stateless-display-assets/ChatGPT%20Image%20Sep%2028%2C%202026%2C%2007_56_56%20AM.png"
     }
   ],
   "productDetails": [
