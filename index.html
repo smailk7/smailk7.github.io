@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMAILK | Portfolio & Footwear Showcase</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
 
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="brand-logo">
+        <span class="logo-text">SMAILK</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#product">Sneakers Showcase</a></li>
+        <li><a href="#features">Keunggulan</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="https://github.com/smailk" target="_blank" class="btn-github">
+        <i data-lucide="github"></i> GitHub Profile
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-container">
+      <div class="profile-badge">
+        <span class="status-dot"></span> Open for Collaborations
+      </div>
+      <h1 class="hero-title">smailk</h1>
+      <p class="hero-subtitle">Developer & Creator of <span>SMAILK Footwear</span></p>
+      <p class="hero-tagline">"Step Up Your Style" — Simple Look, Maximum Style[cite: 1]</p>
+      <div class="hero-buttons">
+        <a href="#product" class="btn-primary">Lihat Varian Sepatu</a>
+        <a href="https://instagram.com/smailk" target="_blank" class="btn-secondary">
+          <i data-lucide="instagram"></i> Instagram
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Product Showcase Section -->
+  <section id="product" class="product-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>SMAILK Lifestyle Sneakers</h2>
+        <p>Pilih dari 6 varian warna eksklusif yang sesuai dengan gaya harianmu.</p>
+      </div>
+
+      <div class="product-grid">
+        <!-- Preview Sepatu -->
+        <div class="product-preview">
+          <div class="badge-wrapper">
+            <span id="variant-badge" class="variant-badge">Warna Utama</span>
+          </div>
+          <img id="shoes-image" src="https://via.placeholder.com/600x400/18181b/ffffff?text=SMAILK+Panda+(Black+%26+White)" alt="SMAILK Shoes">
+          <div class="preview-footer">
+            <h3 id="variant-name">Panda (Black & White)</h3>
+            <p class="slogan-footer">Smailk Always With You[cite: 1]</p>
+          </div>
+        </div>
+
+        <!-- Kontrol Varian & Detail -->
+        <div class="product-info">
+          <h3>Pilihan 6 Varian Warna</h3>
+          <p class="info-desc">Klik swatch warna di bawah untuk melihat tampilan varian:</p>
+          
+          <div class="color-picker-grid" id="color-picker">
+            <!-- Dynamic Color Swatches -->
+          </div>
+
+          <div class="detail-specs">
+            <h4>Detail Visual Produk</h4>
+            <ul id="product-details-list" class="details-list">
+              <!-- Dynamic Details -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Keunggulan Utama</h2>
+        <p>Dirancang khusus untuk kenyamanan dan ketahanan maksimal sepanjang hari[cite: 1].</p>
+      </div>
+
+      <div class="features-grid" id="features-grid">
+        <!-- Dynamic Features -->
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub Stats Section -->
+  <section class="github-stats">
+    <div class="container">
+      <div class="stats-card">
+        <h3><i data-lucide="git-branch"></i> GitHub Activity & Profile</h3>
+        <p>Kunjungi repository dan ikuti perkembangan proyek smailk secara langsung.</p>
+        <div class="social-links">
+          <a href="https://github.com/smailk" target="_blank" class="social-btn"><i data-lucide="github"></i> github.com/smailk</a>
+          <a href="https://instagram.com/smailk" target="_blank" class="social-btn"><i data-lucide="instagram"></i> instagram.com/smailk</a>
+          <a href="mailto:smailk@gmail.com" class="social-btn"><i data-lucide="mail"></i> smailk@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="container footer-content">
+      <p>&copy; 2026 SMAILK Footwear. All rights reserved.</p>
+      <p class="footer-sub">Designed for smailk | GitHub Portfolio Page</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
