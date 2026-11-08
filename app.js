@@ -30,7 +30,7 @@ const books = [
         author: "Leila S. Chudori",
         category: "fiksi",
         price: 115000,
-        image: "https://images.unsplash.com/photo-1495640388908-05fa85288e61?auto=format&fit=crop&w=400&q=80"
+        image: "https://cdn.phototourl.com/member/2026-11-08-c1e17aa8-1447-4411-9ce1-a243f7c4e71e.jpg"
     }
 ];
 
