@@ -1,4 +1,4 @@
-#https://cdn.phototourl.com/member/2026-11-08-0c0c2238-3141-4a53-8714-ce58c8af562f.jpg
+
 # smailk7.github.io
 # 📚 Tinta & Aksara - Toko Buku Online
 
