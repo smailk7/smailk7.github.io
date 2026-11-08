@@ -14,7 +14,7 @@ const books = [
         author: "James Clear",
         category: "self-dev",
         price: 108000,
-        image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80"
+        image: "https://cdn.phototourl.com/member/2026-11-08-24b51640-bcfb-4017-924b-7bed189e848b.jpg"
     },
     {
         id: 3,
