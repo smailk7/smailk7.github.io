@@ -31,6 +31,30 @@ const books = [
         category: "fiksi",
         price: 115000,
         image: "https://cdn.phototourl.com/member/2026-11-08-c1e17aa8-1447-4411-9ce1-a243f7c4e71e.jpg"
+    },
+    {
+        id: 1,
+        title: "Bumi Manusia",
+        author: "Pramoedya Ananta Toer",
+        category: "fiksi",
+        price: 95000,
+        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+        id: 1,
+        title: "Bumi Manusia",
+        author: "Pramoedya Ananta Toer",
+        category: "fiksi",
+        price: 95000,
+        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+        id: 1,
+        title: "Bumi Manusia",
+        author: "Pramoedya Ananta Toer",
+        category: "fiksi",
+        price: 95000,
+        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80"
     }
 ];
 
