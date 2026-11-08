@@ -1,5 +1,6 @@
 # smailk7.github.io
-https://cdn.phototourl.com/member/2026-11-08-5890b586-c6ae-4053-9a6b-ce100d47c62a.jpg
+
+
 # 📚 Tinta & Aksara - Toko Buku Online
 
 Aplikasi web e-commerce sederhana modern khusus untuk toko buku dan novel online.
