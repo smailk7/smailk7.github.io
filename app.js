@@ -22,7 +22,7 @@ const books = [
         author: "J.R.R. Tolkien",
         category: "fantasy",
         price: 125000,
-        image: "https://images.unsplash.com/photo-1629992101753-56d196c8aeaa?auto=format&fit=crop&w=400&q=80"
+        image: "https://cdn.phototourl.com/member/2026-11-08-be8f932b-5c93-43b6-a71e-193c7ba1a01a.jpg"
     },
     {
         id: 4,
