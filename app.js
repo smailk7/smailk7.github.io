@@ -2,35 +2,35 @@
 const books = [
     {
         id: 1,
-        title: "Bumi Manusia",
-        author: "Pramoedya Ananta Toer",
-        category: "fiksi",
-        price: 95000,
-        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80"
+        title: "farina de fontain",
+        author: "aguss jir",
+        category: "mapel",
+        price: 125,000,
+        image: "https://cdn.phototourl.com/member/2026-11-08-fea91707-3781-42c2-9b56-d5e63f861f5c.jpg"
     },
     {
         id: 2,
-        title: "Atomic Habits",
-        author: "James Clear",
-        category: "self-dev",
+        title: "sejarah my  bini",
+        author: "mas evan",
+        category: "mapel",
         price: 108000,
-        image: "https://cdn.phototourl.com/member/2026-11-08-24b51640-bcfb-4017-924b-7bed189e848b.jpg"
+        image: "https://cdn.phototourl.com/member/2026-11-08-fea91707-3781-42c2-9b56-d5e63f861f5c.jpg"
     },
     {
         id: 3,
-        title: "The Hobbit",
-        author: "J.R.R. Tolkien",
-        category: "fantasy",
+        title: "goones",
+        author: "broc0li",
+        category: "mapel",
         price: 125000,
-        image: "https://cdn.phototourl.com/member/2026-11-08-be8f932b-5c93-43b6-a71e-193c7ba1a01a.jpg"
+        image: "https://cdn.phototourl.com/member/2026-11-08-77fc4615-a73c-4b0f-8630-954d71c0ebde.jpg"
     },
     {
         id: 4,
-        title: "Laut Bercerita",
-        author: "Leila S. Chudori",
-        category: "fiksi",
+        title: "demonslayer",
+        author: "rulala",
+        category: "komic",
         price: 115000,
-        image: "https://cdn.phototourl.com/member/2026-11-08-c1e17aa8-1447-4411-9ce1-a243f7c4e71e.jpg"
+        image: "https://cdn.phototourl.com/member/2026-11-08-f212e996-54dd-4c7f-91a8-ace25dc5f981.jpg"
     },
     {
         id: 1,
