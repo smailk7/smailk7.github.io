@@ -4,7 +4,7 @@ const books = [
         id: 1,
         title: "farina de fontain",
         author: "aguss jir",
-        category: "mapel",
+        category: "fiksi",
         price: 125,000,
         image: "https://cdn.phototourl.com/member/2026-11-08-fea91707-3781-42c2-9b56-d5e63f861f5c.jpg"
     },
@@ -12,7 +12,7 @@ const books = [
         id: 2,
         title: "sejarah my  bini",
         author: "mas evan",
-        category: "mapel",
+        category: "fiksi",
         price: 108000,
         image: "https://cdn.phototourl.com/member/2026-11-08-fea91707-3781-42c2-9b56-d5e63f861f5c.jpg"
     },
@@ -20,7 +20,7 @@ const books = [
         id: 3,
         title: "goones",
         author: "broc0li",
-        category: "mapel",
+        category: "fiksi",
         price: 125000,
         image: "https://cdn.phototourl.com/member/2026-11-08-77fc4615-a73c-4b0f-8630-954d71c0ebde.jpg"
     },
@@ -28,7 +28,7 @@ const books = [
         id: 4,
         title: "demonslayer",
         author: "rulala",
-        category: "komic",
+        category: "self-dev",
         price: 115000,
         image: "https://cdn.phototourl.com/member/2026-11-08-f212e996-54dd-4c7f-91a8-ace25dc5f981.jpg"
     },
