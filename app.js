@@ -34,27 +34,27 @@ const books = [
     },
     {
         id: 5,
-        title: "Bumi Manusia",
+        title: "seni budaya",
         author: "Pramoedya Ananta Toer",
         category: "fiksi",
-        price: 95000,
-        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80"
+        price: 115,000,
+        image: "https://cdn.phototourl.com/member/2026-11-09-c82296c5-905f-4b41-82f7-f9c5ca847ec9.jpg"
     },
     {
         id: 6,
-        title: "Bumi Manusia",
+        title: "bhs inggris",
         author: "Pramoedya Ananta Toer",
         category: "fiksi",
-        price: 95000,
-        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80"
+        price: 130,000,
+        image: "https://cdn.phototourl.com/member/2026-11-09-b4831394-0c4d-4898-af91-508e49535dc7.jpg"
     },
     {
         id: 7,
-        title: "Bumi Manusia",
+        title: "pai",
         author: "Pramoedya Ananta Toer",
         category: "fiksi",
-        price: 95000,
-        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80"
+        price: 125,000,
+        image: "https://cdn.phototourl.com/member/2026-11-09-57fa527c-cdf0-47eb-90d0-aba5d364db85.jpg"
     },
     {
         id: 8,
