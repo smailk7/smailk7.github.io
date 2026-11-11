@@ -22,9 +22,5 @@ Kunjungi website perpustakaan yang sudah aktif di:
 
 ```text
 smailk7.github.io/
-├── css/
-│   └── style.css       # File gaya & tampilan visual website
-├── js/
-│   └── script.js      # Data buku & logika modal pembaca
 ├── index.html         # Halaman utama perpustakaan
 └── README.md          # Dokumentasi proyek
