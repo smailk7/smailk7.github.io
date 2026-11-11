@@ -3,12 +3,11 @@
 # Hi there, I'm [SMAILK7] 👋
 
 ### 🚀 About Me
-Saya adalah seorang **[Profesi/Peran Kamu, contoh: Web Developer / Data Analyst / Student]** yang berdomisili di Indonesia. Saya tertarik dengan pembuatan aplikasi web, open-source, dan teknologi terbaru.
+Saya adalah seorang **[ Student]** yang berdomisili di Indonesia. Saya tertarik dengan pembuatan aplikasi web, open-source, dan teknologi terbaru.
 
-- 🔭 Saat ini sedang mengerjakan: **[Nama Project/Topik]**
-- 🌱 Saya sedang mempelajari: **[Teknologi/Bahasa Pemrograman]**
-- 💬 Tanya saya tentang: **[Keahlian Utama Kamu]**
-- 📫 Cara menghubungi saya: **[Email Kamu]**
+- 🔭 Saat ini sedang mengerjakan: **[ Project/Topik]**
+- 🌱 Saya sedang mempelajari: **[Pemrograman]**
+- 📫 Cara menghubungi saya: **[sohib.123@smk.belajar.id]**
 
 ---
 
@@ -56,6 +55,15 @@ Saya adalah seorang **[Profesi/Peran Kamu, contoh: Web Developer / Data Analyst 
 
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### 📈 Activity Graph
+
+![](https://github-readme-activity-graph.vercel.app/graph?username=smailk7&theme=tokyo-night)
+
+---
+
+### 💡 Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
